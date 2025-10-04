@@ -4,6 +4,7 @@ import { Dimensions, Image, StyleSheet, Text, View } from "react-native";
 import 'react-native-reanimated';
 import Carousel from "react-native-reanimated-carousel";
 
+
 const { width } = Dimensions.get("window");
 
 const images = [
@@ -17,7 +18,7 @@ export default function Index() {
     <View
       style={styles.view}
     >
-      <Text>Edit app/index.tsx to edit this screen. elamuruhu</Text>
+      <Text className="text-blue-600">Edit app/index.tsx to edit this screen. elamuruhu</Text>
       <Link href="/login" style={styles.loginBtn}>Login Page</Link>
       <Carousel
         loop
